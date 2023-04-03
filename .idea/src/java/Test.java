@@ -3,6 +3,6 @@ public class Test {
         System.out.printf("hello");
         String s;
         int b;
-        boolean m;
+        boolean o;
     }
 }
