@@ -17,7 +17,7 @@ public class Task03 {
                 seasonSelection2();
                 break;
             case 3:
-                evenOdd();
+                evenNumber();
                 break;
             case 4:
                 temp();
@@ -90,9 +90,6 @@ public class Task03 {
                 break;
             case 9, 10, 11:
                 System.out.println("Осень");
-                break;
-            default:
-                System.out.println("Что-то пошло не так");
 
         }
     }
@@ -108,24 +105,22 @@ public class Task03 {
                 break;
         }
         if (month == 1 || month == 2 || month == 12)
-            System.out.println("Зима");
+        { System.out.println("Зима");}
         else if (month == 3 || month == 4 || month == 5)
-            System.out.println("Весна");
+        { System.out.println("Весна");}
         else if (month == 6 || month == 7 || month == 8)
-            System.out.println("Лето");
+        {System.out.println("Лето");}
         else if (month == 9 || month == 10 || month == 11)
-            System.out.println("Осень");
-        else
-            System.out.println("Что-то пошло не так");
+        { System.out.println("Осень");}
     }
 
-    public static void evenOdd() {
+    public static void evenNumber() {
         System.out.println("Введите число:");
         int number = scanner.nextInt();
         if (number % 2 == 0)
-            System.out.println("Число четное");
+        {System.out.println("Число четное");}
         else
-            System.out.println("Число нечетное");
+        {System.out.println("Число нечетное");}
 
     }
 
@@ -133,11 +128,11 @@ public class Task03 {
         System.out.println("Введите температуру:");
         int t = scanner.nextInt();
         if (t > -5)
-            System.out.println("Тепло");
+        {System.out.println("Тепло");}
         else if (t < -5 && t > -20)
-            System.out.println("Нормально");
+        {System.out.println("Нормально");}
         else if (t >= -20)
-            System.out.println("Холодно");
+        { System.out.println("Холодно");}
     }
 
     public static void rainbow() {
@@ -174,7 +169,7 @@ public class Task03 {
     public static void oddNumbers() {
         for (int i = 0; i < 100; i++) {
             if (i % 2 != 0)
-                System.out.println(i);
+            {System.out.println(i);}
         }
     }
 
@@ -191,7 +186,7 @@ public class Task03 {
             System.out.println("Введите любое положительное число:");
             number = scanner.nextInt();
             if (number <= 0)
-                System.out.println("Введенное число должно быть больше нуля. Попробуйте еще раз.");
+            {System.out.println("Введенное число должно быть больше нуля. Попробуйте еще раз.");}
             else break;
         }
         for (int i = 0; i < number; i++) {
