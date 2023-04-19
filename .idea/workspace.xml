@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework03">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework04/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/teachmeskills/homework04/Task04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/java/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ru/teachmeskills/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/teachmeskills/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ru/teachmeskills/homework02/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/teachmeskills/homework02/Task02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ru/teachmeskills/homework03/Task03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/teachmeskills/homework03/Task03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ru/teachmeskills/homework1/Task01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/teachmeskills/homework1/Task01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/.gitignore" afterDir="false" />
+    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework04">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework05/Task05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +57,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task04">
+  <component name="RunManager" selected="Application.Task05">
     <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework03.Task03" />
       <module name="Test" />
@@ -98,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework05.Task05" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.teachmeskills.homework05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task05" />
         <item itemvalue="Application.Task04" />
         <item itemvalue="Application.Task03" />
       </list>
@@ -170,7 +170,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681290184865</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="homework04">
+      <created>1681550311276</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681550311276</updated>
+    </task>
+    <task id="LOCAL-00010" summary="homework04">
+      <created>1681748768411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681748768411</updated>
+    </task>
+    <task id="LOCAL-00011" summary="homework04">
+      <created>1681801384404</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681801384404</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="homework03" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework03" />
+    <MESSAGE value="homework04" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework04" />
   </component>
 </project>
