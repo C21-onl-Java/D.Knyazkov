@@ -9,9 +9,9 @@ public class Main {
         cardOne.add(25);
         cardTwo.add(76);
         cardThree.pay(40);
-        cardOne.print();
-        cardTwo.print();
-        cardThree.print();
+        System.out.println(cardOne);
+        System.out.println(cardTwo);
+        System.out.println(cardThree);
 
         //Проверка задачи 2
         Computer computer1=new Computer(89.00,"A-800");
