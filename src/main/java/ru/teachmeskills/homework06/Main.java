@@ -14,10 +14,10 @@ public class Main {
         System.out.println(cardThree);
 
         //Проверка задачи 2
+        Ram ram=new Ram();
+        Hdd hdd=new Hdd();
         Computer computer1=new Computer(89.00,"A-800");
-        Computer computer2=new Computer(1000.0,"C-2000","1025",16);
-        System.out.println(computer1);
-        System.out.println(computer2);
+Computer computer2=new Computer(1000.00,"C-500",hdd,ram);
 
         //Проверка алгоритма выдачи сдачи (дополнительная задача)
         Atm atm=new Atm(5,10,15);
