@@ -5,7 +5,7 @@ package ru.teachmeskills.homework07.task3;
 import java.util.Date;
 
 public abstract class Register {
-    int count;
+    int count=0;
     int numberOfDocument;
     Date date;
     Register[] registers=new Register[10];

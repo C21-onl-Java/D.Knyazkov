@@ -1,7 +1,7 @@
 package ru.teachmeskills.homework07.task1;
 
 public class Circle extends Figure {
-    final double PI=3.14;
+
     double radius;
 
     public Circle(String name,double radius) {
@@ -11,11 +11,11 @@ public class Circle extends Figure {
 
     @Override
     public double findToPerimeter() {
-        return 2*PI*radius;
+        return 2*Math.PI*radius;
     }
     @Override
     public double findToSquare() {
-        return PI*Math.pow(radius,2);
+        return Math.PI*Math.pow(radius,2);
     }
 }
 
