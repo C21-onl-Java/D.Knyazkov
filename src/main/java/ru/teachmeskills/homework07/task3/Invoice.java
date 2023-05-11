@@ -7,8 +7,8 @@ public class Invoice extends Register {
     int codeOfDepartment;
 
     public Invoice(Date date, int numberOfDocument, double totalAmountOfMonth, int codeOfDepartment) {
-        this.date=date;
-        this.numberOfDocument=numberOfDocument;
+        super.date=date;
+        super.numberOfDocument=numberOfDocument;
         this.totalAmountOfMonth=totalAmountOfMonth;
         this.codeOfDepartment=codeOfDepartment;
     }

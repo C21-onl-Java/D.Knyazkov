@@ -6,8 +6,8 @@ public class EmployeeContract extends Register {
     String dateOfStart;
     String dateOfFinish;
     public EmployeeContract(Date date, int numberOfDocument, String dateOfStart, String dateOfFinish) {
-        this.date=date;
-        this.numberOfDocument=numberOfDocument;
+        super.date=date;
+        super.numberOfDocument=numberOfDocument;
         this.dateOfStart=dateOfStart;
         this.dateOfFinish=dateOfFinish;
     }

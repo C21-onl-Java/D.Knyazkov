@@ -36,8 +36,8 @@ public class SupplyContract extends Register {
     }
 
     public SupplyContract(Date date, int amountOfDocuments, String typeOfDocuments, int numberOfDocument) {
-        this.date=date;
-        this.numberOfDocument=numberOfDocument;
+       super.date=date;
+        super.numberOfDocument=numberOfDocument;
         this.amountOfDocuments=amountOfDocuments;
         this.typeOfDocuments=typeOfDocuments;
     }
