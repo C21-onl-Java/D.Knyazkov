@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework07">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework07/task3/SupplyContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework07/task3/SupplyContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task1/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Dentist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Pacient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/PlanOfHeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Surgeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Terapist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework07" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,7 +64,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -64,26 +76,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.teachmeskills.homework07.Main">
+  <component name="RunManager" selected="Application.ru.teachmeskills.homework08.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework06.Main" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.teachmeskills.homework06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework03.Task03" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.teachmeskills.homework03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.teachmeskills.homework08.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework08.Main" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.teachmeskills.homework08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.teachmeskills.homework08.Main" />
         <item itemvalue="Application.ru.teachmeskills.homework07.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task05" />
         <item itemvalue="Application.Task04" />
-        <item itemvalue="Application.Task03" />
       </list>
     </recent_temporary>
   </component>
