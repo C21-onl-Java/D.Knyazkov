@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework04">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework06/Atm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework06/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework06/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework06/Hdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework06/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework06/Ram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework07">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework07/task3/SupplyContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework07/task3/SupplyContract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,7 +64,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ru.teachmeskills.homework07.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework06.Main" />
       <module name="Test" />
@@ -123,8 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.teachmeskills.homework07.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework07.Main" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.teachmeskills.homework07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.teachmeskills.homework07.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task05" />
         <item itemvalue="Application.Task04" />
@@ -218,7 +226,49 @@
       <option name="project" value="LOCAL" />
       <updated>1681801384404</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="homework06">
+      <created>1682423436912</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682423436912</updated>
+    </task>
+    <task id="LOCAL-00013" summary="homework06">
+      <created>1682423599908</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682423599908</updated>
+    </task>
+    <task id="LOCAL-00014" summary="homework06">
+      <created>1682442731066</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682442731066</updated>
+    </task>
+    <task id="LOCAL-00015" summary="homework07">
+      <created>1682945693575</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682945693576</updated>
+    </task>
+    <task id="LOCAL-00016" summary="homework07">
+      <created>1683184099856</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683184099856</updated>
+    </task>
+    <task id="LOCAL-00017" summary="homework07">
+      <created>1683808118673</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683808118673</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +286,9 @@
     <MESSAGE value="test" />
     <MESSAGE value="homework03" />
     <MESSAGE value="homework04" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework04" />
+    <MESSAGE value="homework06" />
+    <MESSAGE value="homework07" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,6 +297,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework06/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework07/task1/Box.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
