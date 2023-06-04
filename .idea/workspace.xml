@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework11">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -309,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685096677559</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="homework12">
+      <created>1685792448477</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685792448477</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +337,8 @@
     <MESSAGE value="homework09" />
     <MESSAGE value="homework10" />
     <MESSAGE value="homework11" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework11" />
+    <MESSAGE value="homework12" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

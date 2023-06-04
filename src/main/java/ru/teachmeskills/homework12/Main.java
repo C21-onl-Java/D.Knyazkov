@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         String wrongLength="Неверная длина номера документа";
         String wrongStart="Неверная последовательность в начале номера документа";
+        String bothVariants="Ни одно из условий не соблюдено";
         char newLine='\n';
         char space=' ';
         try (Scanner scanner = new Scanner(System.in);
@@ -17,28 +18,29 @@ public class Main {
              BufferedWriter bufferValid=new BufferedWriter(writerValid);
              Writer writerInvalid=new FileWriter("src\\invalid.txt");
              BufferedWriter bufferInvalid=new BufferedWriter(writerInvalid))
-
         {
             byte[] bytes = fileInputStream.readAllBytes();
             String temp = new String(bytes);
             String[] array = temp.split("\\s+");
             for (int i = 0; i < array.length; i++) {
                 char[] output=array[i].toCharArray();
-                if (!(array[i].length() == 15)) {
+                if (!((array[i].startsWith("docnum") || array[i].startsWith("contract"))))
+                {System.out.printf("Документ %d не соответствует критериям.%n", i + 1);
+                    bufferInvalid.write(output);
+                    bufferInvalid.write(space);
+                    if ((!(array[i].length() == 15)))
+                {
+                    bufferInvalid.write(bothVariants);
+                    bufferInvalid.write(newLine);}
+                else {
+                    bufferInvalid.write(wrongStart);
+                    bufferInvalid.write(newLine);}}
+                else if  (!(array[i].length() == 15)) {
                     System.out.printf("Документ %d не соответствует критериям.%n", i + 1);
                     bufferInvalid.write(output);
                     bufferInvalid.write(space);
                     bufferInvalid.write(wrongLength);
                     bufferInvalid.write(newLine);}
-
-                else if (!((array[i].startsWith("docnum") || array[i].startsWith("contract"))))
-                {  System.out.printf("Документ %d не соответствует критериям.%n", i + 1);
-                    bufferInvalid.write(output);
-                    bufferInvalid.write(space);
-                    bufferInvalid.write(wrongStart);
-                    bufferInvalid.write(newLine);
-                }
-
                 else {
                     System.out.printf("Документ %d соответствует критериям.%n", i + 1);
                     bufferValid.write(output);
