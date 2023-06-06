@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework07">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task1/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Dentist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Pacient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/PlanOfHeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Surgeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework08/task2/Terapist.java" afterDir="false" />
+    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework08">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework09/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework09/Vector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework09/Vector3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683808118673</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="homework08">
+      <created>1684158183269</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684158183269</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +302,8 @@
     <MESSAGE value="homework04" />
     <MESSAGE value="homework06" />
     <MESSAGE value="homework07" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework07" />
+    <MESSAGE value="homework08" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework08" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
