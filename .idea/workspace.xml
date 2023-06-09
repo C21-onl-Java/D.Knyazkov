@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="homework12" />
+    <list default="true" id="d6cf5f2c-83ba-4d31-b82b-7388db59d098" name="Changes" comment="Добавлена проверка на случай, если документ не соответствует ни одному из критериев">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework12/path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task1/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task1/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task2/Sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task2/Sentences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task3/Different.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task3/Different.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task4/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task4/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task5/Dual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework10/task5/Dual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/task1/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/task1/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/task1/WrongFinishException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/task1/WrongFinishException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/task2/Pass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework11/task2/Pass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/teachmeskills/homework12/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +89,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.teachmeskills.homework11.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Document" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework10.task1.Document" />
       <module name="Test" />
@@ -88,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.teachmeskills.homework07.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework07.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework12.Main" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.teachmeskills.homework07.*" />
+          <option name="PATTERN" value="ru.teachmeskills.homework12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.teachmeskills.homework08.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework08.Main" />
+    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.teachmeskills.homework03.Task03" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.teachmeskills.homework08.*" />
+          <option name="PATTERN" value="ru.teachmeskills.homework03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.teachmeskills.homework11.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ru.teachmeskills.homework10.Main" />
+        <item itemvalue="Application.ru.teachmeskills.homework11.Main" />
+        <item itemvalue="Application.Task03" />
         <item itemvalue="Application.Document" />
-        <item itemvalue="Application.ru.teachmeskills.homework08.Main" />
-        <item itemvalue="Application.ru.teachmeskills.homework07.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685792448477</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Добавлена проверка на случай, если документ не соответствует ни одному из критериев">
+      <created>1685885269858</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685885269858</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +360,8 @@
     <MESSAGE value="homework10" />
     <MESSAGE value="homework11" />
     <MESSAGE value="homework12" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework12" />
+    <MESSAGE value="Добавлена проверка на случай, если документ не соответствует ни одному из критериев" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена проверка на случай, если документ не соответствует ни одному из критериев" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,6 +381,10 @@
           <line>5</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.file.InvalidPathException" package="java.nio.file" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

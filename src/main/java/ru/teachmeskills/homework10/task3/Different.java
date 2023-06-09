@@ -14,7 +14,7 @@ public class Different {
                 if (!charSet[number]) {
                     countOfDifferentSymbolsInWord++;
                 }
-                    charSet[number] = true;
+                charSet[number] = true;
 
             }
             if (countOfDifferentSymbolsInWord < minDifferentSymbolsInWord) {

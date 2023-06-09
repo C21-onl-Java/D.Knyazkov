@@ -17,6 +17,7 @@ public class Sentences {
         System.out.println(array[array.length - 1]);
 
     }
+
     public void showToLongestWord() {
         String s = "Cat,Dog,Apple,Elephant,Bird,Building";
         String[] array = s.split(",");
@@ -33,8 +34,6 @@ public class Sentences {
         System.out.println(array[array.length - 1]);
 
     }
-
-
 
 
 }
